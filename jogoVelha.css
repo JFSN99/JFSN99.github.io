@@ -1,0 +1,41 @@
+body{
+    background-color: gray;
+}
+.tabuleiro{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-auto-rows: 100px;
+    gap: 2px;
+    justify-content: center;
+}
+.placar{
+    text-align: center;
+    font-size: 20px;
+}
+.pos{
+    cursor: pointer;
+    border: 0;
+    font-size: 70px;
+    font-weight: bold;
+    text-shadow: 1px 1px white;
+}
+
+.pos:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.tit{
+    color: white;
+    text-align: center;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.log{
+    text-align: center;
+    font-size: 20px;
+}
